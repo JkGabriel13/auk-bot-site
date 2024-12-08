@@ -1,5 +1,5 @@
 <h3 align="center">
-  Website For <a href = "https://discordbotlist.com/bots/doge-memer">Doge Memer Discord Bot</a>
+  Website For <a href = "https://discordbotlist.com/bots/auk-bot">Auk Bot Discord</a>
 </h3>
  
  <p align="center">
