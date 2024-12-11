@@ -1,211 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Auk Bot</title>
-    <link rel="icon" href="./assets/doge_logo.png" />
-
-    <!-- Google Fonts & CSS -->
-
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-
-    <!-- Google Fonts & CSS -->
-
-    <!-- Meta Tags-->
-
-    <meta name="og:title" property="og:title" content="Auk Bot Discord" />
-    <meta name="twitter:title" content="Auk Bot Discord " />
-
-    <meta name="description"
-        content=Auk Bot  é um bot Discord rico em recursos com o toque original de ser sarcástico e memey. Um sistema monetário ENORME, toneladas de memes e muito mais!" />
-
-    <meta property="og:description"
-        content="Auk Bot é um bot Discord rico em recursos com o toque original de ser sarcástico e memey. Um sistema monetário ENORME, toneladas de memes e muito mais!" />
-
-    <meta name="twitter:description"
-        content="DDoge Memer é um bot Discord rico em recursos com o toque original de ser sarcástico e memey. Um sistema monetário ENORME, toneladas de memes e muito mais!" />
-
-    <meta property="og:image:width" content="64" />
-    <meta property="og:image:height" content="64" />
-    <meta property="og:image" content="./assets/doge_logo.png" />
-    <meta name="twitter:image" content="./assets/doge_logo.png" />
-    <meta property="og:type" content="website" />
-
-    <!-- Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Auk Bot</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2C2F33;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #23272A;
+            border-radius: 8px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #7289DA;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #5B6EAE;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .faq {
+            margin: 20px 0;
+            background-color: #2C2F33;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .faq h3 {
+            margin: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #7289DA;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #5B6EAE;
+        }
+    </style>
 </head>
+<body>
 
-<body class="bg-[#272934] overflow-x-hidden">
-    <nav class="flex justify-between mt-6 p-3">
-        <p
-            class="font-[Montserrat] text-white uppercase text-2xl sm:text-3xl md:ml-24 sm:ml-16 flex flex-col justify-center">
-            Doge Memer
-        </p>
+<div class="container">
+    <h1>Bem-vindo ao Meu Painel do Auk Bot</h1>
+  <a href="https://ibb.co/j9CKk67"><img src="https://i.ibb.co/j9CKk67/fbe14e52-534e-4a87-8e28-cf488b9dad3b.jpg" alt="fbe14e52-534e-4a87-8e28-cf488b9dad3b" border="0"></a>
+    <p>Este bot foi criado para ajudar você a gerenciar seu servidor do Discord de forma divertida e eficiente. Com uma variedade de comandos e funcionalidades, ele pode tornar sua experiência no Discord ainda melhor!</p>
+    
+    <h2>Funcionalidades</h2>
+    <ul>
+        <li>🎮 Jogos interativos</li>
+        <li>🔧 Comandos de moderação</li>
+        <li>🤖 Respostas automáticas personalizáveis</li>
+        <li>🌐 Integração com APIs externas</li>
+        <li>📊 Comandos de estatísticas e relatórios</li>
+    </ul>
 
-        <a href="https://discord.com/api/oauth2/authorize?client_id=835785944627675168&permissions=964423572675&scope=bot%20applications.commands"
-            target="_blank"
-            class="bg-[#3994ff] text-white pl-4 pr-4 pt-2 pb-2 rounded-md md:mr-20 shadow-2xl shadow-[#000000] hover:bg-[#2a6ebd] flex flex-col justify-center hover:scale-105">
-            Invite
-        </a>
-    </nav>
+    <h2>Como adicionar o bot ao seu servidor</h2>
+    <p>Clique no botão abaixo para convidar o bot para o seu servidor:</p>
+    <a href="https://discord.com/oauth2/authorize?client_id=1165158137284796466&scope=bot&permissions=8" class="button">Adicionar Bot</a>
+<a href="https://discordbotlist.com/bots/auk-bot"><img src="https://discordbotlist.com/api/v1/bots/1165158137284796466/widget"></a>
+    <h2>Instruções de Uso</h2>
+    <p>Após adicionar o bot ao seu servidor, você pode usar os seguintes comandos:</p>
+    <ul>
+        <li><code>a-help </code> - Mostra todos os comandos disponíveis.</li>
+        <li><code>a-work </code> - Começe A Trabalhar Para Juntar Moedas</li>
+        <li><code>a-daliy </code> - Para Pegar Seu Daily Diario.</li>
+    </ul>
 
-    <div class="sm:flex sm:flex-row sm:justify-evenly mt-28 mb-10 px-10 ">
-        <div class="flex flex-col justify-center p-3 md:text-left text-center hover:scale-110 duration-500">
-            <p class="text-white font-[Montserrat] sm:text-6xl text-3xl">
-                Build the best <br />Discord Server!
-            </p>
-            <p class="text-white sm:text-xl text-md">
-                Memes • Jokes • Economy • Roasts • Actions • Mini-Games
-            </p>
+    <h2>Perguntas Frequentes (FAQ)</h2>
+    <div class="faq">
+        <h3>1. O bot é gratuito?</h3>
+        <p>Sim! O bot é totalmente gratuito para uso.</p>
 
-            <div class="flex justify-evenly p-3 mt-5">
-                <a href="https://discord.com/api/oauth2/authorize?client_id=835785944627675168&permissions=964423572675&scope=bot%20applications.commands"
-                    target="_blank"
-                    class="bg-[#3994ff] hover:bg-[#2a6ebd] text-white sm:p-4 p-2 sm:rounded-2xl rounded-lg shadow-2xl shadow-[#000000] font-medium hover:scale-105">
-                    Add to Discord
-                </a>
+        <h3>2. O que fazer se o bot não responde?</h3>
+        <p>Verifique se o bot tem permissões adequadas no servidor e se você está usando os comandos corretos.</p>
 
-                <a href="https://discordbotlist.com/bots/doge-memer" target="_blank"
-                    class="bg-[#52545D] hover:bg-[#353639] text-white sm:p-4 p-2 sm:rounded-2xl rounded-lg shadow-2xl shadow-[#000000] ml-3 font-medium hover:scale-105">
-                    Discord Bot List
-                </a>
-            </div>
-        </div>
-
-        <div class="relative lg:flex lg:flex-col lg:justify-center hidden w-1/3 hover:scale-105 duration-500">
-            <img src="assets/doge_framed.png" />
-        </div>
+        <h3>3. Como posso sugerir novas funcionalidades?</h3>
+        <p>Você pode usar o formulário de contato abaixo para enviar suas sugestões!</p>
     </div>
 
-    <div class="bg-[#1F2129] md:flex md:justify-evenly p-10 gap-3 hover:scale-105 duration-500">
-        <div class="flex justify-center">
-            <div class="md:flex md:flex-col justify-center text-center sm:w-1/2 lg:w-full">
-                <p class="text-white text-xl md:text-2xl font-[Montserrat]">
-                    Used by 5K Plus Discord Servers
-                </p>
-            </div>
-        </div>
-
-        <div class="flex justify-center">
-            <div
-                class="lg:flex lg:justify-between md:grid md:grid-cols-3 sm:flex mt-5 sm:justify-center gap-10 grid grid-cols-3 w-fit">
-                <img src="assets/server_icon5.png" class="hover:scale-110 h-14 w-14 sm:h-16 sm:w-16 rounded-xl" />
-                <img src="assets/server_icon4.png" class="hover:scale-110 h-14 w-14 sm:h-16 sm:w-16 rounded-xl" />
-                <img src="assets/server_icon6.png" class="hover:scale-110 h-14 w-14 sm:h-16 sm:w-16 rounded-xl" />
-                <img src="assets/server_icon2.png" class="hover:scale-110 h-14 w-14 sm:h-16 sm:w-16 rounded-xl" />
-                <img src="assets/server_icon3.png" class="hover:scale-110 h-14 w-14 sm:h-16 sm:w-16 rounded-xl" />
-                <img src="assets/server_icon1.png" class="hover:scale-110 h-14 w-14 sm:h-16 sm:w-16 rounded-xl" />
-            </div>
-        </div>
-    </div>
-
-    <div class="sm:flex p-10 hover:scale-105 duration-500">
-        <div class="sm:w-1/2 sm:flex sm:flex-col justify-center text-center">
-            <p class="text-white font-[Montserrat] lg:text-4xl md:text-3xl text-2xl sm:m-0 mt-10 mb-10">
-                Get Reddit Content directly delivered to your Discord
-            </p>
-        </div>
-
-        <div class="sm:w-1/2 ">
-            <img src="assets/discord_asset2.svg" class="w-full" />
-        </div>
-    </div>
-
-    <div class="sm:flex p-10 bg-[#1F2129] hover:scale-105 duration-500">
-        <div class="sm:w-1/2">
-            <img src="assets/discord_asset1.svg" class="w-full" />
-        </div>
-
-        <div class="sm:w-1/2 sm:flex sm:flex-col justify-center text-center">
-            <p class="text-white font-[Montserrat] lg:text-4xl md:text-3xl text-2xl sm:m-0 mt-10 mb-10">
-                Engage with your server members to race to the server leaderboard
-            </p>
-        </div>
-    </div>
-
-    <div class="sm:flex p-10 hover:scale-105 duration-500">
-        <div class="sm:w-1/2 sm:flex sm:flex-col justify-center text-center">
-            <p class="text-white font-[Montserrat] lg:text-4xl md:text-3xl text-2xl sm:m-0 mt-10 mb-10">
-                Chill and Hangout with 25+ fun-filled command keywords
-            </p>
-        </div>
-
-        <div class="sm:w-1/2">
-            <img src="assets/discord_asset3.svg" class="w-full" />
-        </div>
-    </div>
-
-    <div class="bg-[#1F2129] p-10 flex gap-10 justify-center">
-        <div class="text-center sm:text-left hover:scale-110 duration-500">
-            <p class="text-white font-bold sm:text-xl text-lg">Doge Memer ©2022</p>
-            <p class="text-[#9d9d9d] sm:text-xl text-lg">
-                Created with ❤️ by jokerbiel13
-            </p>
-
-            <div class="flex justify-center sm:justify-start mt-2">
-                <a href="https://github.com/thenithinbalaji/Doge-Memer" target="_blank"><img
-                        src="assets/github_logo.png"
-                        class="h-8 sm:h-14 rounded-full m-1 hover:outline-white hover:outline hover:scale-110" /></a>
-                <a href="https://discord.gg/Xqgzyngnda" target="_blank"><img src="assets/discord_logo.png"
-                        class="h-8 sm:h-14 rounded-full m-1 hover:outline-white hover:outline hover:scale-110" /></a>
-            </div>
-        </div>
-
-        <div class="hidden md:block hover:scale-110 duration-500">
-            <p class="text-white font-bold text-2xl">Frequently Used</p>
-            <ul class="text-[#9d9d9d]">
-                <li>Show Me A Meme</li>
-                <li>Check Balance</li>
-                <li>Moment @User</li>
-                <li>Fifty Fifty</li>
-            </ul>
-        </div>
-
-        <div class="hidden sm:block hover:scale-110 duration-500">
-            <p class="text-white font-bold text-2xl">Bot Information</p>
-            <ul class="text-[#9d9d9d]">
-                <li>
-                    <a href="https://pypi.org/project/discord.py/" class="hover:text-white"
-                        target="_blank">Discord.py</a>
-                </li>
-                <li>
-                    <a href="https://www.mongodb.com/" class="hover:text-white" target="_blank">MongoDB</a>
-                </li>
-                <li>
-                    <a href="https://replit.com/" class="hover:text-white" target="_blank">Replit Hosting</a>
-                </li>
-                <li>
-                    <a href="https://github.com/thenithinbalaji/Doge-Memer" class="hover:text-white"
-                        target="_blank">Open-Source</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="hidden sm:block hover:scale-110 duration-500">
-            <p class="text-white font-bold text-2xl">Important Links</p>
-            <ul class="text-[#9d9d9d]">
-                <li>
-                    <a href="https://www.buymeacoffee.com/thenithinbalaji" class="hover:text-white"
-                        target="_blank">Donate</a>
-                </li>
-                <li>
-                    <a href="https://discord.gg/Xqgzyngnda" class="hover:text-white" target="_blank">Support Server</a>
-                </li>
-                <li>
-                    <a href="https://github.com/thenithinbalaji/Doge-Memer" class="hover:text-white"
-                        target="_blank">Contribute</a>
-                </li>
-                <li>Privacy Policy</li>
-            </ul>
-        </div>
-    </div>
-</body>
-
-</html>
+    <h2>Contato</h2>
+    <p>Se você tiver alguma dúvida ou precisar de ajuda, aqui esta alguns meio de contato abaixo:
+    Discord 
+    jokerbiel13
+    Servidor De Surporte</p>
+<iframe src="https://discord.com/widget?id=1194723649962381422&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
